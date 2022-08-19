@@ -128,7 +128,7 @@ body {
 }
 
 #hero button {
-    background-image: url("img/shop.jpg");
+    background-image: url("img/shop.png");
     background-color: transparent;
     color: #088178;
     border: 0;
@@ -137,5 +137,13 @@ body {
     cursor: pointer;
     font-weight: 700;
     font-size: 15px;
+}
+
+#feature .fe-box{
+    width: 180px;
+    text-align: center;
+    padding: 25px 15px;
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
+    border: 1px solid #cce7d0;
 }
 
