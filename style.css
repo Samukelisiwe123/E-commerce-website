@@ -135,6 +135,10 @@ body {
     align-items: none;
 }
 
+#close {
+    display: none;
+}
+
 /*Home Page */
 #hero{
     background-image:  url("img/hero.jpg");
@@ -584,7 +588,22 @@ footer .copyright {
        color: #1a1a1a;
        font-size: 24px;
     }
+
+    #close {
+        display: initial;
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        color: #222;
+        font-size: 24px;
+    }
+
+    #lg-bag {
+        display: none;
+    }
 }
+
+
 
 
 
