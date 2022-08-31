@@ -537,6 +537,25 @@ footer .copyright {
     text-align: center;
 }
 
+/*shop.html*/
+
+#page-header{
+    background-image: url(img/shop/b1.jpeg);
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 14px;
+
+}
+
+#page-header h2,
+#page-header p{
+    color: #fff;
+}
 
 
 
